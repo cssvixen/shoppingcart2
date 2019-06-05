@@ -1,0 +1,373 @@
+#box
+{
+    height: 1000px;
+    width: 1430px;
+}
+#box1
+{
+    height: 50px;
+    width: 1430px;
+    background-color: #363636;
+    color: white;
+
+}
+.box1a
+{
+    height: 30px;
+    width: 1400px;
+    color:white;
+    position: absolute;
+    margin-top: 7px;
+}
+#box2
+{
+    height: 300px;
+    width: 1430px;
+    background-color: blue;
+    
+}
+
+#box2a
+{
+    height: 50px;
+    width: 700px;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 98px;
+    margin-left: 350px;
+    margin-right: 350px;
+
+
+    
+
+}
+.box2b
+{
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    color: white;
+}
+.glyphicon 
+{
+    font-size: 30px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 7px;
+}
+.box2c
+{
+    height: 50px;
+    width: 595px;
+    display: inline-block;
+    position: absolute;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.text
+{
+    height:30px;
+    width:595px;
+}
+#box3
+{
+    height:600px;
+    width: 1430px;
+    background-color: white;
+}
+#box4
+{
+    height: 800px;
+    width: 1350px;
+    background-color: lightgrey;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    margin-left: -670px;
+}
+#Secbox
+{
+    height:100px;
+    width: 1350px;
+    background-color: gainsboro;
+    
+}
+#sbox
+{
+    height: 60px;
+    width: 1310px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#sbox1
+{
+    height: 60px;
+    width: 246px;
+    display: inline-block;
+    position: relative;
+    
+}
+.dropbtn {
+    background-color: whitesmoke;
+    color: black;
+    padding: 16px;
+    font-size: 8px;
+    border: grey;
+    height: 60px;
+    width: 246px;
+    position: relative;
+  }
+  
+  .dropdown {
+    position: absolute;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 246px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: blue;}
+
+
+#sbox2
+{
+    height: 60px;
+    width: 247px;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+#sbox3
+{
+    height: 60px;
+    width: 247px;
+    display: inline-block;
+    margin-left: 15px;
+}
+#sbox4
+{
+    height: 60px;
+    width: 247px;
+    display: inline-block;
+    margin-left: 15px;
+}
+#sbox5
+{
+    height: 60px;
+    width: 247px;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+#Thirdbox
+{
+    height: 440px;
+    width: 1350px;
+    background-color: #F8F8F8;
+}
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+   
+}
+
+p
+{
+
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+    
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+
+  #Fourthbox
+  {
+      width: 1350px;
+      height:550px;
+      background-color: #F8F8F8;
+  }
+   #fbox
+  {
+      width: 1310px;
+      height:510px;
+      background-color: #f8f8f8;
+      position: absolute;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 20px;
+    
+      
+  } 
+  #fbox1
+  {
+    height: 245px;
+    width: 1310px;
+    background-color: #f8f8f8;
+    margin-bottom: 20px;
+    
+    
+    
+  }
+  #fbox1a
+  {
+      height: 245px;
+      width: 246px;
+      background-color: #f8f8f8;
+      display: inline-block;
+  }
+  #fbox1b
+  {
+      height: 245px;
+      width: 247px;
+      background-color: #f8f8f8;
+      display: inline-block;
+      margin-left: 14px;
+  }
+  #fbox1c
+  {
+      height: 245px;
+      width: 247px;
+      background-color: #f8f8f8;
+      display: inline-block;
+      margin-left: 15px;
+  }
+  #fbox1d
+  {
+      height: 245px;
+      width: 247px;
+      background-color: #f8f8f8;
+      display: inline-block;
+      margin-left: 15px;
+  }
+  #fbox1e
+  {
+      height: 245px;
+      width: 247px;
+      background-color: #f8f8f8;
+      display: inline-block;
+      margin-left: 14px;
+  }
+  #fbox2
+  {
+    height: 245px;
+    width: 1310px;
+    background-color: #f8f8f8;
+    
+  }
+  #fbox2a
+  {
+      height: 245px;
+      width: 247px;
+      background-color: #f8f8f8;
+      display: inline-block;
+  }
+  #fbox2b
+  {
+      height: 245px;
+      width: 247px;
+      background-color: #f8f8f8;
+      display: inline-block;
+      margin-left: 14px;
+  }
+  #fbox2c
+  {
+      height: 245px;
+      width: 247px;
+      background-color: #f8f8f8;
+      display: inline-block;
+      margin-left: 15px;
+  }
+  #fbox2d
+  {
+      height: 245px;
+      width: 247px;
+      background-color: #f8f8f8;
+      display: inline-block;
+      margin-left: 15px;
+  }
+  #fbox2e
+  {
+      height: 245px;
+      width: 247px;
+      background-color: #f8f8f8;
+      display: inline-block;
+      margin-left: 14px;
+  }
+  .p 
+  {
+      height: 240px;
+      width: 242px;
+      position: absolute;
+  }
+  .pfirst
+  {
+      height: 240px;
+      width: 121px;
+      background-color: white;
+      display: inline-block;
+      position: absolute;
+  }
+  .psecond
+  {
+      height: 240px;
+      width: 121px;
+      
+      position: relative;
+      float: right;
+  }
+  .sa 
+  {
+      height: 120px;
+      width: 121px;
+      background-color: pink;
+  }
+  .sb 
+  {
+      height: 120px;
+      width: 121px;
+      background-color: black;
+  }
